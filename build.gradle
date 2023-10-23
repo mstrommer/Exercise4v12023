@@ -23,18 +23,22 @@ run {
     standardInput(System.in)
 }
 
-mainClassName = 'at.ac.fhcampuswien.App'
+application {
+    mainClass  = 'at.ac.fhcampuswien.App'
+}
 
 allprojects {
-    tasks.withType(JavaCompile) {
-        sourceCompatibility = '1.8'
-        targetCompatibility = '1.8'
+    tasks.withType(JavaCompile).tap {
+        configureEach {
+            sourceCompatibility = '1.8'
+            targetCompatibility = '1.8'
+        }
     }
 }
 
-tasks.withType(JavaCompile) {
+tasks.withType(JavaCompile).configureEach {
     options.encoding = "UTF-8"
 }
-tasks.withType(Test) {
+tasks.withType(Test).configureEach {
     systemProperty "file.encoding", "UTF-8"
 }
