@@ -22,12 +22,12 @@ class AppTest {
 
     @BeforeAll
     public static void init() {
-        System.out.println("Testing Exercise2");
+        System.out.println("Testing Exercise4");
     }
 
     @AfterAll
     public static void finish() {
-        System.out.println("Finished Testing Exercise2");
+        System.out.println("Finished Testing Exercise4");
     }
 
     @BeforeEach
@@ -316,7 +316,7 @@ class AppTest {
             Rectangle r1 = (Rectangle) co.newInstance(1,1,3,3);
             Rectangle r2 = (Rectangle) co.newInstance(4,3,5,4);
             Rectangle r3 = (Rectangle) m.invoke(r1,r2);
-            assertEquals(null, r3,"Intersection not computed correctly.");
+            assertNull(r3, "Intersection not computed correctly.");
         } catch (ClassNotFoundException cnfe) {
             cnfe.printStackTrace();
             fail("There should be a class called Rectangle.");
