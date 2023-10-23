@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "Class member modifier (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.classReflection",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Class member count (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.classMembersCountReflection",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Constructors (2 Points)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.classConstructorsReflection",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "getWidth (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.getWidth",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "getHeight (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.getHeight",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "getCount (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.getCount",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Point isInside (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.isInside1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Rectangle isInside (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.isInside2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "toString (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.rectangleToString",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "union1 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.union1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "union2 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.union2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "intersection1 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.intersection1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "intersection2 (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.intersection2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "generateRectangles (1 Point)",
+      "setup": "",
+      "run": "gradle test --tests at.ac.fhcampuswien.AppTest.generateRectangles",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
